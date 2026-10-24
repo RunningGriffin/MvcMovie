@@ -51,6 +51,30 @@ public static class SeedData
                     Genre = "Western",
                     Price = 3.99M,
                     Rating = "R",
+                },
+                new Movie
+                {
+                    Title = "Lord of the Rings: The Fellowship of the Ring",
+                    ReleaseDate = DateTime.Parse("2001-12-19"),
+                    Genre = "Adventure Epic",
+                    Rating = "PG-13",
+                    Price = 9.99M
+                },
+                new Movie
+                {
+                    Title = "Lord of the Rings: The Two Towers",
+                    ReleaseDate = DateTime.Parse("2002-12-18"),
+                    Genre = "Adventure Epic",
+                    Rating = "PG-13",
+                    Price = 9.99M
+                },
+                new Movie
+                {
+                    Title = "Lord of the Rings: The Return of the King",
+                    ReleaseDate = DateTime.Parse("2003-12-17"),
+                    Genre = "Adventure Epic",
+                    Rating = "PG-13",
+                    Price = 9.99M
                 }
             );
             context.SaveChanges();
